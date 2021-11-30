@@ -29,9 +29,9 @@ const auth= firebase.auth();
 
 function signUp(){
 
-var email = document.getElementById("email"); document.getElementById("password");
+var email = document.getElementById("email"); 
 
-var password =
+var password =document.getElementById("password");
 
 const promise = auth.createUserWith EmailAnd Password(email.value,pass word.value);
 
