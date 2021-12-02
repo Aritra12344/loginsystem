@@ -81,7 +81,7 @@ signinbtn.onclick=function(){
       signinbtn.textContent="Logging to Your Account! Please Wait";
       firebase.auth().signInWithEmailAndPassword(emailsignup, passswordsignup).then(function(response){
         alert("user successfully logged in");
-      window.location.replace("index.html");
+      window.location.replace("in.html");
       })
       .catch(function(error){
         signinbtn.disabled=false;
