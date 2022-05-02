@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous">
+				<link rel="stylesheet" href="Css/style.css"></link>
+				<title>Explore the unlimited creativity |Aritraghosh.com</title>
+</head>
+<body>
+		
+		<nav id="navbar">
+						<div>
+									<a href="#"><img src="img/logo.jpg" alt="loading..."></a> <p>ARITRA'S WEB</p>
+						</div>
+						<ul>
+										<li><a href="#">HOME</a></li>
+										<li><a href="#">GALLERY</a></li>
+										<li><a href="#">BOOKS</a></li>
+										<li><a href="#">CONTACT ME</a></li>
+										<li><a href="#">SUBSCRIBE ME</a></li>
+						</ul>
+		</nav>
+									<!-- banner -->
+									<div id="banner">
+													<img src="img/modern-website-banner-template-with-abstract-shapes_1361-3311.jpg" alt="loding...">
+									</div>				
+									
+									<!-- features-->
+									<p class="featurep">FEATURE</p>
+									<div id="feature">
+													
+													<div id="feature1"><img src="img/chromeicon.png" class="featureimg" alt="loding..."><p class="green txtwhite br20">You can me paid works. I will mail you the price later. <a href="#">click here</a> and place your order.</p></div>
+													
+													<div id="feature2"><p class="  txtwhite red br20">mattis posse velit legimus quo alia utamur comprehensam equidem habeo definitiones </p></div>
+													
+													<div id="feature3"><p class="  txtwhite blue br20">iuvaret labores fermentum debet cetero doctus ius libris veritus reformidans intellegebat causae </p></div>
+													
+													<div id="feature4"><p class="   txtwhite green br20">risus tantas duo enim duo fuisset sea tation pulvinar periculis non tempus mollis praesent sociosqu posidonium </p></div>
+									</div>
+									
+									<!-- contact form -->
+									<center><form onsubmit="sendEmail();  reset(); return false;">
+									<div id="contactform" class="br20">
+													<div><img src="img/contactf.jpg" alt="loading..."></div>
+													<div class="contactform">
+																	<input type="text" placeholder="Your Name" id="name" required>
+																	<input type="email" placeholder="Examle@gmail.com" id="email" required>
+																	<textarea placeholder="Your Message" id="body" required></textarea>
+																	<input type="submit"  value="submit">
+													</div>
+													
+									</div>
+				</form></center>
+				
+				<script src="https://smtpjs.com/v3/smtp.js"></script>
+				<script>
+								function sendEmail(){
+								Email.send({ Host : "smtp.elasticemail.com", Username : "aritraghosh625@gmail.com", Password : "94BB393A3797A08D461E458AF22DB6033739", To : 'aritraghosh625@gmail.com, From : document.getElementById("email").value, Subject : "New contact form enquiry", Body : "And this is the body" }).then( message => alert(message) );
+								}
+				</script>
+</body>
+</html>
